@@ -11,7 +11,7 @@ function createWindow() {
     // Development URL
     win.loadURL('http://localhost:3000');
   } else {
-    win.loadFile('src/build/index.html');
+    win.loadFile('react/build/index.html');
   }
 }
 

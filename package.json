@@ -2,9 +2,9 @@
   "name": "electron-react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "electron/index.js",
   "scripts": {
-    "dev": "concurrently \"electron .\" \"cd react && npm start\"",
+    "dev": "concurrently \"electron ./electron/.\" \"cd react && npm start\"",
     "build": "cd react && npm run build && cd .. && electron-builder"
   },
   "keywords": [],
