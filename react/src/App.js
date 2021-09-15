@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import appRuntime from './appRuntime';
+
+console.log(appRuntime);
 
 function App() {
   return (

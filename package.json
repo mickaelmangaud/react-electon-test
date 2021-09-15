@@ -4,7 +4,7 @@
   "description": "",
   "main": "electron/index.js",
   "scripts": {
-    "dev": "concurrently \"electron ./electron/.\" \"cd react && npm start\"",
+    "dev": "concurrently \"electron ./react/public/electron.js\" \"cd react && npm start\"",
     "build": "cd react && npm run build && cd .. && electron-builder"
   },
   "keywords": [],
